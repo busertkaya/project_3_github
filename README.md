@@ -17,3 +17,9 @@ bikeshare.py
 chicago.csv
 new_york_city.csv
 washington.csv
+
+
+### Credits
+Pandas documentation
+Numpy documentation.
+www.stackoverflow.com
