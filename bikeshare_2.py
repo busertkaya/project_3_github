@@ -196,6 +196,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#Create a function to filter 5 rows of data
 def display_data(df):
     """Displays 5 rows of data from the csv file for the selected city.
     Args:
