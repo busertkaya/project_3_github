@@ -6,6 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+#These lists used to compare user input
 CITIES = ['chicago', 'new york city', 'washington']
 
 MONTH_OPTIONS = {'1': 'january', '2': 'february', '3': 'march', '4': 'april', '5': 'may', '6': 'june', '7': 'all'}
@@ -195,6 +196,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#Create a function to filter 5 rows of data
 def display_data(df):
     """Displays 5 rows of data from the csv file for the selected city.
     Args:
@@ -212,7 +214,8 @@ def display_data(df):
             break
         else:
             print("You entered wrong input. Please try again")
-
+            
+#to used for executing functions above
 def main():
     while True:
         city, month, day = get_filters()
