@@ -2,6 +2,7 @@
 
 ### Date created
 Project has been completed on 5th of October 2022
+Developed by Burak Sertkaya
 
 ### Project Title
 Programming-for-Data-Science-with-Python
